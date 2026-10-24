@@ -1,0 +1,1845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prime Construction | Engineering & Infrastructure Powerhouse | Abuja, Nigeria</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Prime Construction, established June 20, 2016 in Abuja, Nigeria. A premier civil engineering and commercial construction firm with 150+ professionals across 9 specialized divisions, heavy machinery fleet, and landmark projects.">
+  <meta name="keywords" content="Prime Construction, Abuja construction company, civil engineering Nigeria, luxury residential Guzape, commercial plaza Abuja, heavy machinery fleet, Garki Abuja contractors">
+  <meta name="author" content="Prime Construction Ltd">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Prime Construction | 10 Years of Engineering Landmark Horizons">
+  <meta property="og:description" content="Headquartered at A20 Nkwegu Plaza, Area 1 Garki Abuja. 150+ staff, in-house architectural studios, heavy equipment fleet, and premier project delivery.">
+  <meta property="og:type" content="website">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/modals.css">
+  <link rel="stylesheet" href="css/chatbot.css">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="blueprint-bg">
+
+  <!-- ========================================================================
+       MAIN HEADER / NAVIGATION
+       ======================================================================== -->
+  <header class="main-header" role="banner">
+    <div class="container nav-inner">
+      <a href="#" class="brand-logo" aria-label="Prime Construction Home">
+        <div class="brand-mark">
+          <i data-lucide="building-2" style="width: 22px; height: 22px;"></i>
+        </div>
+        <div class="brand-text">
+          <h1>PRIME</h1>
+          <span>CONSTRUCTION LTD</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" role="navigation" aria-label="Main Navigation">
+        <a href="#cinematic-showcase" class="nav-link">Live Showcase</a>
+        <a href="#projects" class="nav-link">Landmarks</a>
+        <a href="#cost-estimator" class="nav-link">Cost Guide</a>
+        <a href="#departments" class="nav-link">9 Divisions</a>
+        <a href="#fleet" class="nav-link">Fleet Arsenal</a>
+        <a href="#hse" class="nav-link">HSE Safety</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <div class="mobile-drawer-footer">
+          <button class="btn-primary" onclick="openRfqModal(); document.querySelector('.nav-links').classList.remove('mobile-open');" style="width: 100%; justify-content: center;">
+            <i data-lucide="file-text" style="width: 16px; height: 16px;"></i>
+            Request RFQ / Bid
+          </button>
+          <a href="https://t.me/primeconstruction_ng" target="_blank" rel="noopener" class="btn-telegram" style="width: 100%; justify-content: center; margin-top: 8px;">
+            <i data-lucide="send" style="width: 16px; height: 16px;"></i>
+            Telegram Desk (@primeconstruction_ng)
+          </a>
+        </div>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn-primary" onclick="openRfqModal()" id="navRfqBtn">
+          <i data-lucide="file-text" style="width: 16px; height: 16px;"></i>
+          Request RFQ / Bid
+        </button>
+        <button class="mobile-toggle" id="mobileMenuToggle" aria-label="Toggle navigation menu">
+          <i data-lucide="menu" style="width: 24px; height: 24px;"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       HERO STAGE (THE LANDMARK ENTRANCE)
+       ======================================================================== -->
+  <section class="hero-section" id="hero">
+    <div class="hero-bg-media">
+      <img src="assets/images/hero_corporate_landmark.jpg" alt="Prime Construction Corporate Landmark Project in Abuja">
+    </div>
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+      <div class="hero-badge-group">
+        <span class="section-tag gold">
+          <i data-lucide="sparkles" style="width: 14px; height: 14px;"></i>
+          10 Years of Structural Excellence (2016 – 2026)
+        </span>
+        <span class="section-tag">
+          <i data-lucide="shield-check" style="width: 14px; height: 14px;"></i>
+          FCT Abuja Approved Tier-1 Contractor
+        </span>
+      </div>
+
+      <h1 class="hero-title">
+        Engineering Nigeria’s <br>
+        <span class="accent-gold">Landmark Horizons.</span>
+      </h1>
+
+      <p class="hero-desc">
+        From advanced architectural drafting at our Garki headquarters to monumental civil works across the nation, Prime Construction combines 150+ multidisciplinary specialists and a state-of-the-art heavy machinery fleet to deliver enduring excellence.
+      </p>
+
+      <div class="hero-cta-group">
+        <a href="#projects" class="btn-primary">
+          <i data-lucide="layers" style="width: 18px; height: 18px;"></i>
+          Explore Our Projects
+        </a>
+        <button class="btn-outline-white" onclick="openHqModal()">
+          <i data-lucide="compass" style="width: 18px; height: 18px;"></i>
+          Abuja HQ Virtual Tour
+        </button>
+        <button class="btn-outline-white" onclick="openRfqModal()">
+          <i data-lucide="calculator" style="width: 18px; height: 18px;"></i>
+          Project Cost Consultation
+        </button>
+      </div>
+
+      <!-- Live Impact Metrics Strip -->
+      <div class="hero-metrics-strip">
+        <div class="metric-item">
+          <div class="metric-number" data-target="10" data-suffix="+">10+</div>
+          <div class="metric-label">Years of Mastery (Est. 2016)</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-number" data-target="150" data-suffix="+">150+</div>
+          <div class="metric-label">In-House Staff Strength</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-number" data-target="9" data-suffix=" Div">9 Div</div>
+          <div class="metric-label">Integrated Departments</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-number" data-target="98.6" data-suffix="%">98.6%</div>
+          <div class="metric-label">On-Schedule Delivery Rate</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       ABUJA HQ SPOTLIGHT ("THE NERVE CENTER")
+       ======================================================================== -->
+  <section class="hq-section" id="about-hq">
+    <div class="container">
+      <div class="hq-grid">
+        <div class="hq-info-box">
+          <span class="section-tag red">Corporate Headquarters</span>
+          <h2 class="section-title">The Nerve Center of Prime Engineering</h2>
+          <div class="hq-address-tag">
+            <i data-lucide="map-pin" style="width: 18px; height: 18px; color: var(--prime-red);"></i>
+            <span>Suite A20, Nkwegu Plaza, Area 1 Garki, FCT Abuja</span>
+          </div>
+          <p class="section-subtitle">
+            Established on June 20, 2016, our Abuja headquarters coordinates corporate governance, BIM architectural innovation, structural calculations, procurement supply lines, and site telemetry across all Nigerian operations.
+          </p>
+
+          <div class="hq-features-list">
+            <div class="hq-feature-item">
+              <div class="hq-feature-icon">
+                <i data-lucide="pen-tool" style="width: 18px; height: 18px;"></i>
+              </div>
+              <div class="hq-feature-text">
+                <h4>Design & BIM Studio</h4>
+                <p>3D parametric modeling and architectural drafting stations.</p>
+              </div>
+            </div>
+
+            <div class="hq-feature-item">
+              <div class="hq-feature-icon">
+                <i data-lucide="cpu" style="width: 18px; height: 18px;"></i>
+              </div>
+              <div class="hq-feature-text">
+                <h4>Structural Planning Deck</h4>
+                <p>Civil engineering load calculations and GIS analysis.</p>
+              </div>
+            </div>
+
+            <div class="hq-feature-item">
+              <div class="hq-feature-icon">
+                <i data-lucide="briefcase" style="width: 18px; height: 18px;"></i>
+              </div>
+              <div class="hq-feature-text">
+                <h4>Executive Boardroom</h4>
+                <p>High-stakes tender negotiation and contract administration.</p>
+              </div>
+            </div>
+
+            <div class="hq-feature-item">
+              <div class="hq-feature-icon">
+                <i data-lucide="truck" style="width: 18px; height: 18px;"></i>
+              </div>
+              <div class="hq-feature-text">
+                <h4>Fleet Telemetry Center</h4>
+                <p>Real-time coordination of heavy haulage and machinery.</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn-primary" onclick="openHqModal()">
+            <i data-lucide="maximize-2" style="width: 16px; height: 16px;"></i>
+            Launch Full Interactive HQ Experience
+          </button>
+        </div>
+
+        <div class="hq-preview-gallery">
+          <div class="hq-preview-card featured-card">
+            <img src="assets/images/architects_design_studio.jpg" alt="Architects designing in the BIM studio at Prime Construction HQ">
+            <div class="hq-card-badge">
+              <i data-lucide="layout" style="width: 14px; height: 14px;"></i>
+              <span>Architecture & BIM Studio — Suite A20</span>
+            </div>
+          </div>
+          <div class="hq-preview-card">
+            <img src="assets/images/engineers_planning_room.jpg" alt="Civil engineers planning blueprints at Prime Construction">
+            <div class="hq-card-badge">
+              <i data-lucide="compass" style="width: 14px; height: 14px;"></i>
+              <span>Structural Engineering Command</span>
+            </div>
+          </div>
+          <div class="hq-preview-card">
+            <img src="assets/images/construction_site_crew.jpg" alt="Site supervisors and crew in action">
+            <div class="hq-card-badge">
+              <i data-lucide="hard-hat" style="width: 14px; height: 14px;"></i>
+              <span>Field Operations Link</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       MULTI-STREAM CINEMATIC SLIDER ("ECOSYSTEM IN MOTION")
+       ======================================================================== -->
+  <section class="cinematic-section" id="cinematic-showcase">
+    <div class="container">
+      <div class="text-center" style="margin-bottom: 32px;">
+        <span class="section-tag gold">Life at Prime • From Blueprint to Concrete</span>
+        <h2 class="section-title">The Integrated Construction Ecosystem</h2>
+        <p class="section-subtitle centered">
+          Experience the journey of monumental creation: from architects crafting digital models in our Abuja studio to engineers calculating loads and heavy machinery carving Nigeria's skyline.
+        </p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="slider-tabs" role="tablist">
+        <button class="slider-tab-btn active" data-category="all" role="tab">All Perspectives</button>
+        <button class="slider-tab-btn" data-category="architects" role="tab">Architects in Studio</button>
+        <button class="slider-tab-btn" data-category="engineers" role="tab">Engineers Planning</button>
+        <button class="slider-tab-btn" data-category="crew" role="tab">Men at Work (Site)</button>
+        <button class="slider-tab-btn" data-category="fleet" role="tab">Machinery Arsenal</button>
+        <button class="slider-tab-btn" data-category="luxury" role="tab">Luxury Estates</button>
+        <button class="slider-tab-btn" data-category="commercial" role="tab">Commercial Landmarks</button>
+      </div>
+
+      <!-- The Cinematic Viewport -->
+      <div class="slider-viewport" id="cinematicSlider">
+        <!-- Slide 1: Commercial Landmark -->
+        <div class="slide-item active" data-category="commercial">
+          <img src="assets/images/hero_corporate_landmark.jpg" alt="Commercial Corporate Landmark delivered by Prime Construction in Abuja">
+          <div class="slide-overlay">
+            <div class="slide-info">
+              <span class="slide-tag">Completed Landmark</span>
+              <h3 class="slide-title">Corporate Headquarters & Commercial Complex</h3>
+              <p class="slide-desc">Grade-A corporate high-rise and luxury retail enclave featuring energy-efficient curtain glazing, suspended terraces, and integrated building automation in the heart of Abuja.</p>
+            </div>
+            <div class="slide-metrics">
+              <div>
+                <div class="slide-metric-val">32,000 m²</div>
+                <div class="slide-metric-lbl">Gross Floor Area</div>
+              </div>
+              <div>
+                <div class="slide-metric-val">100%</div>
+                <div class="slide-metric-lbl">In-House Turnkey</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2: Architects in Studio -->
+        <div class="slide-item" data-category="architects">
+          <img src="assets/images/architects_design_studio.jpg" alt="Architects designing in the studio on ultrawide monitors with 3D BIM models">
+          <div class="slide-overlay">
+            <div class="slide-info">
+              <span class="slide-tag">Architectural Division</span>
+              <h3 class="slide-title">Architects in the Studio Designing</h3>
+              <p class="slide-desc">Our architects and visualization specialists utilize Building Information Modeling (BIM) to simulate structural dynamics, sunlight exposure, and material textures before groundbreaking.</p>
+            </div>
+            <div class="slide-metrics">
+              <div>
+                <div class="slide-metric-val">BIM Level 3</div>
+                <div class="slide-metric-lbl">Digital Modeling</div>
+              </div>
+              <div>
+                <div class="slide-metric-val">15 Architects</div>
+                <div class="slide-metric-lbl">Dedicated Team</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3: Engineers Planning -->
+        <div class="slide-item" data-category="engineers">
+          <img src="assets/images/engineers_planning_room.jpg" alt="Civil and structural engineers reviewing structural load calculations">
+          <div class="slide-overlay">
+            <div class="slide-info">
+              <span class="slide-tag">Engineering Division</span>
+              <h3 class="slide-title">Engineers Planning & Load Calculations</h3>
+              <p class="slide-desc">Civil, structural, and geotechnical engineers reviewing blueprint layouts, soil bearing tolerances, and reinforced concrete schedules to guarantee multi-decade stability.</p>
+            </div>
+            <div class="slide-metrics">
+              <div>
+                <div class="slide-metric-val">Eurocode / BS</div>
+                <div class="slide-metric-lbl">Design Standards</div>
+              </div>
+              <div>
+                <div class="slide-metric-val">Zero Risk</div>
+                <div class="slide-metric-lbl">QA Compliance</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 4: Men Working on Site -->
+        <div class="slide-item" data-category="crew">
+          <img src="assets/images/construction_site_crew.jpg" alt="Construction workers and site engineers in safety vests working on steel rebar framing">
+          <div class="slide-overlay">
+            <div class="slide-info">
+              <span class="slide-tag">Active Site Execution</span>
+              <h3 class="slide-title">Men Working at the Sites — HSE First</h3>
+              <p class="slide-desc">Certified builders, ironworkers, and site supervisors in full personal protective gear pouring foundation slabs and binding high-tensile steel rebar grids under rigorous safety supervision.</p>
+            </div>
+            <div class="slide-metrics">
+              <div>
+                <div class="slide-metric-val">Zero Harm</div>
+                <div class="slide-metric-lbl">Safety Protocol</div>
+              </div>
+              <div>
+                <div class="slide-metric-val">Daily Audits</div>
+                <div class="slide-metric-lbl">HSE Monitoring</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 5: Machinery Arsenal -->
+        <div class="slide-item" data-category="fleet">
+          <img src="assets/images/machinery_fleet_arsenal.jpg" alt="Heavy equipment fleet: crawler excavators, tipper trucks, and mobile cranes on site">
+          <div class="slide-overlay">
+            <div class="slide-info">
+              <span class="slide-tag">Heavy Equipment Arsenal</span>
+              <h3 class="slide-title">Fleets of Heavy Machinery</h3>
+              <p class="slide-desc">Heavy-duty crawler excavators, mobile telescopic cranes, 30-tonne tipper trucks, and concrete batching plants owned directly by Prime Construction to eradicate subcontracting delays.</p>
+            </div>
+            <div class="slide-metrics">
+              <div>
+                <div class="slide-metric-val">40+ Heavy Units</div>
+                <div class="slide-metric-lbl">Company-Owned</div>
+              </div>
+              <div>
+                <div class="slide-metric-val">24/7 Crew</div>
+                <div class="slide-metric-lbl">Certified Drivers</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 6: Luxury Residential -->
+        <div class="slide-item" data-category="luxury">
+          <img src="assets/images/luxury_residential_estate.jpg" alt="Luxury hillside residential estate in Guzape Maitama Abuja with infinity pools">
+          <div class="slide-overlay">
+            <div class="slide-info">
+              <span class="slide-tag">Ongoing & Completed Horizons</span>
+              <h3 class="slide-title">Guzape Hillcrest Luxury Residential Enclave</h3>
+              <p class="slide-desc">A benchmark in African luxury living: cantilevered white concrete villas, floor-to-ceiling panoramic glass, private infinity pools, and integrated hillside retaining engineering.</p>
+            </div>
+            <div class="slide-metrics">
+              <div>
+                <div class="slide-metric-val">48,500 m²</div>
+                <div class="slide-metric-lbl">Enclave Footprint</div>
+              </div>
+              <div>
+                <div class="slide-metric-val">Abuja Hills</div>
+                <div class="slide-metric-lbl">Prime Location</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <div class="slider-controls">
+          <button class="slider-arrow-btn" id="slidePrevBtn" aria-label="Previous Slide">
+            <i data-lucide="chevron-left" style="width: 24px; height: 24px;"></i>
+          </button>
+          <button class="slider-arrow-btn" id="slideNextBtn" aria-label="Next Slide">
+            <i data-lucide="chevron-right" style="width: 24px; height: 24px;"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Progress Fill Bar -->
+      <div class="slider-progress-bar">
+        <div class="slider-progress-fill" id="sliderProgressFill"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       FEATURED PROJECTS SHOWCASE (THE 5 STAR CASE STUDIES)
+       ======================================================================== -->
+  <section class="projects-section" id="projects">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag">Portfolio of Distinction</span>
+        <h2 class="section-title">Completed & Ongoing Landmarks</h2>
+        <p class="section-subtitle centered">
+          Explore our premier portfolio across residential enclaves, commercial centers, civic security reconstructions, and civil road infrastructure in Nigeria.
+        </p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="projects-filter-bar">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="luxury">Luxury Residential</button>
+        <button class="filter-btn" data-filter="commercial">Commercial Plazas</button>
+        <button class="filter-btn" data-filter="civil">Civil & Roads</button>
+        <button class="filter-btn" data-filter="corporate">Corporate Towers</button>
+        <button class="filter-btn" data-filter="civic">Civic Reconstruction</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+        <!-- Project 1: Guzape Hillcrest (Featured 2-column) -->
+        <article class="project-card featured-project" data-category="luxury">
+          <div class="project-thumb">
+            <img src="assets/images/luxury_residential_estate.jpg" alt="The Guzape Hillcrest Luxury Enclave in Abuja">
+            <span class="project-status-badge">
+              <i data-lucide="check-circle" style="width: 12px; height: 12px;"></i> Completed Landmark
+            </span>
+            <span class="project-category-tag">Luxury Residential</span>
+          </div>
+          <div class="project-details">
+            <div class="project-location">
+              <i data-lucide="map-pin" style="width: 14px; height: 14px;"></i>
+              Guzape / Asokoro Hills, Abuja FCT
+            </div>
+            <h3 class="project-title">The Guzape Hillcrest Luxury Enclave</h3>
+            <p class="project-desc">
+              12 ultra-luxury cantilevered villas built into the mountainous topography of Guzape. Equipped with subterranean drainage, infinity edge pools, floor-to-ceiling double glazing, and private access roads.
+            </p>
+            <div class="project-specs-list">
+              <span class="spec-badge">48,500 m² Footprint</span>
+              <span class="spec-badge">Post-Tensioned Concrete</span>
+              <span class="spec-badge">Private Enclave</span>
+            </div>
+            <button class="project-action-btn" onclick="openProjectModal('guzape-estate')">
+              <i data-lucide="sliders" style="width: 16px; height: 16px;"></i>
+              View Specs & Before/After Comparison
+            </button>
+          </div>
+        </article>
+
+        <!-- Project 2: Capital Apex Plaza -->
+        <article class="project-card" data-category="commercial">
+          <div class="project-thumb">
+            <img src="assets/images/hero_corporate_landmark.jpg" alt="The Capital Apex Commercial Plaza Abuja">
+            <span class="project-status-badge">
+              <i data-lucide="check-circle" style="width: 12px; height: 12px;"></i> Completed
+            </span>
+            <span class="project-category-tag">Commercial Plaza</span>
+          </div>
+          <div class="project-details">
+            <div class="project-location">
+              <i data-lucide="map-pin" style="width: 14px; height: 14px;"></i>
+              Central Business District, Abuja
+            </div>
+            <h3 class="project-title">The Capital Apex Plaza</h3>
+            <p class="project-desc">
+              A 5-story premier commercial plaza featuring expansive retail atriums, multi-level underground parking, and modern glass facades.
+            </p>
+            <div class="project-specs-list">
+              <span class="spec-badge">32,000 m²</span>
+              <span class="spec-badge">Low-E Glazing</span>
+            </div>
+            <button class="project-action-btn" onclick="openProjectModal('capital-plaza')">
+              <i data-lucide="eye" style="width: 16px; height: 16px;"></i>
+              View Project Dossier
+            </button>
+          </div>
+        </article>
+
+        <!-- Project 3: FCT Arterial Dualization -->
+        <article class="project-card" data-category="civil">
+          <div class="project-thumb">
+            <img src="assets/images/machinery_fleet_arsenal.jpg" alt="FCT Arterial Highway Dualization & Bridge Works">
+            <span class="project-status-badge ongoing">
+              <i data-lucide="clock" style="width: 12px; height: 12px;"></i> Ongoing (82%)
+            </span>
+            <span class="project-category-tag">Civil & Road Infrastructure</span>
+          </div>
+          <div class="project-details">
+            <div class="project-location">
+              <i data-lucide="map-pin" style="width: 14px; height: 14px;"></i>
+              Garki - Expressway Link, Abuja FCT
+            </div>
+            <h3 class="project-title">FCT Arterial Dualization & Bridge Works</h3>
+            <p class="project-desc">
+              Dual-carriageway expansion, heavy reinforced concrete box culverts, asphalt laying, and solar streetlighting delivered with our in-house heavy plant fleet.
+            </p>
+            <div class="project-specs-list">
+              <span class="spec-badge">14.8 km Dual Lane</span>
+              <span class="spec-badge">FCDA Contract</span>
+            </div>
+            <button class="project-action-btn" onclick="openProjectModal('fct-dualization')">
+              <i data-lucide="eye" style="width: 16px; height: 16px;"></i>
+              View Civil Engineering Specs
+            </button>
+          </div>
+        </article>
+
+        <!-- Project 4: Corporate Office Complex -->
+        <article class="project-card" data-category="corporate">
+          <div class="project-thumb">
+            <img src="assets/images/hero_corporate_landmark.jpg" alt="Sterling Heights Corporate Office Complex">
+            <span class="project-status-badge">
+              <i data-lucide="check-circle" style="width: 12px; height: 12px;"></i> Completed
+            </span>
+            <span class="project-category-tag">Corporate Tower</span>
+          </div>
+          <div class="project-details">
+            <div class="project-location">
+              <i data-lucide="map-pin" style="width: 14px; height: 14px;"></i>
+              Wuse II Corporate District, Abuja
+            </div>
+            <h3 class="project-title">Sterling Heights Corporate Tower</h3>
+            <p class="project-desc">
+              Grade-A corporate headquarters with advanced acoustic insulation, high-speed elevator banks, and energy management systems.
+            </p>
+            <div class="project-specs-list">
+              <span class="spec-badge">26,400 m²</span>
+              <span class="spec-badge">Smart Building</span>
+            </div>
+            <button class="project-action-btn" onclick="openProjectModal('sterling-tower')">
+              <i data-lucide="eye" style="width: 16px; height: 16px;"></i>
+              View Architectural Dossier
+            </button>
+          </div>
+        </article>
+
+        <!-- Project 5: Model Police Station Reconstruction -->
+        <article class="project-card" data-category="civic">
+          <div class="project-thumb">
+            <img src="assets/images/construction_site_crew.jpg" alt="Model Divisional Police Headquarters Reconstruction">
+            <span class="project-status-badge">
+              <i data-lucide="check-circle" style="width: 12px; height: 12px;"></i> Completed Civic Landmark
+            </span>
+            <span class="project-category-tag">Civic Reconstruction</span>
+          </div>
+          <div class="project-details">
+            <div class="project-location">
+              <i data-lucide="map-pin" style="width: 14px; height: 14px;"></i>
+              Area 1 Garki & Regional Hubs, Abuja FCT
+            </div>
+            <h3 class="project-title">Model Divisional Police Headquarters</h3>
+            <p class="project-desc">
+              Comprehensive structural reconstruction and modernization of civic security stations, featuring ballistic-reinforced framing, digital communication centers, armory wings, and paved parade yards.
+            </p>
+            <div class="project-specs-list">
+              <span class="spec-badge">12,500 m²</span>
+              <span class="spec-badge">Civic Security Upgrade</span>
+            </div>
+            <button class="project-action-btn" onclick="openProjectModal('police-station')">
+              <i data-lucide="eye" style="width: 16px; height: 16px;"></i>
+              View Reconstruction Case Study
+            </button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       THE 9 DEPARTMENTS (THE INTEGRATED ENGINE - 150+ STAFF)
+       ======================================================================== -->
+  <section class="departments-section" id="departments">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag red">Integrated In-House Capabilities</span>
+        <h2 class="section-title">The 9 Specialized Divisions</h2>
+        <p class="section-subtitle centered">
+          Prime Construction’s 150+ professionals manage every phase in-house. We do not subcontract the essentials, ensuring full cost certainty, superior quality, and zero third-party bottlenecks.
+        </p>
+      </div>
+
+      <div class="departments-grid">
+        <!-- 1. Architecture -->
+        <div class="dept-card">
+          <div class="dept-icon-box">
+            <i data-lucide="pen-tool" style="width: 24px; height: 24px;"></i>
+          </div>
+          <h3>1. Architecture Department</h3>
+          <p>BIM 3D modeling, conceptual design, spatial planning, structural aesthetics, and local FCDA building code approvals.</p>
+          <span class="dept-staff-tag">15 Specialists • Garki Studio</span>
+        </div>
+
+        <!-- 2. Engineering -->
+        <div class="dept-card">
+          <div class="dept-icon-box">
+            <i data-lucide="cpu" style="width: 24px; height: 24px;"></i>
+          </div>
+          <h3>2. Engineering Department</h3>
+          <p>Civil, structural, geotechnical, and MEP (mechanical, electrical, plumbing) engineering with rigorous load stress analysis.</p>
+          <span class="dept-staff-tag">22 Registered Engineers</span>
+        </div>
+
+        <!-- 3. Quantity Surveying -->
+        <div class="dept-card">
+          <div class="dept-icon-box">
+            <i data-lucide="calculator" style="width: 24px; height: 24px;"></i>
+          </div>
+          <h3>3. Quantity Surveyor Department</h3>
+          <p>Preparation of accurate Bills of Quantities (BOQ), cost forecasting, material auditing, and transparent tender valuations.</p>
+          <span class="dept-staff-tag">12 Quantity Surveyors</span>
+        </div>
+
+        <!-- 4. Builders -->
+        <div class="dept-card">
+          <div class="dept-icon-box">
+            <i data-lucide="hard-hat" style="width: 24px; height: 24px;"></i>
+          </div>
+          <h3>4. Builders Department</h3>
+          <p>Certified master builders executing formwork, reinforced concrete casting, precision masonry, and structural framing.</p>
+          <span class="dept-staff-tag">45 Site Craftsmen & Foremen</span>
+        </div>
+
+        <!-- 5. Procurement -->
+        <div class="dept-card">
+          <div class="dept-icon-box">
+            <i data-lucide="shopping-bag" style="width: 24px; height: 24px;"></i>
+          </div>
+          <h3>5. Procurement Department</h3>
+          <p>Direct sourcing of certified high-tensile rebar, grade 42.5 cement, imported finishes, and bulk construction materials.</p>
+          <span class="dept-staff-tag">10 Supply Chain Officers</span>
+        </div>
+
+        <!-- 6. Drivers & Logistics -->
+        <div class="dept-card">
+          <div class="dept-icon-box">
+            <i data-lucide="truck" style="width: 24px; height: 24px;"></i>
+          </div>
+          <h3>6. Drivers & Logistics Division</h3>
+          <p>Licensed heavy equipment operators and haulage drivers managing daily transit of materials and plant across Nigerian states.</p>
+          <span class="dept-staff-tag">24 Certified Heavy Drivers</span>
+        </div>
+
+        <!-- 7. Maintenance Crew -->
+        <div class="dept-card">
+          <div class="dept-icon-box">
+            <i data-lucide="wrench" style="width: 24px; height: 24px;"></i>
+          </div>
+          <h3>7. Maintenance Crew</h3>
+          <p>Post-completion facility upkeep, MEP systems maintenance, structural inspections, and 24/7 emergency response.</p>
+          <span class="dept-staff-tag">14 Mechanical Technicians</span>
+        </div>
+
+        <!-- 8. Finance -->
+        <div class="dept-card">
+          <div class="dept-icon-box">
+            <i data-lucide="dollar-sign" style="width: 24px; height: 24px;"></i>
+          </div>
+          <h3>8. Finance Department</h3>
+          <p>Project milestone billing, escrow disbursements, statutory compliance, tax governance, and investor capital transparency.</p>
+          <span class="dept-staff-tag">8 Chartered Accountants</span>
+        </div>
+
+        <!-- 9. Human Resources -->
+        <div class="dept-card">
+          <div class="dept-icon-box">
+            <i data-lucide="users" style="width: 24px; height: 24px;"></i>
+          </div>
+          <h3>9. HR Department</h3>
+          <p>Talent management, safety compliance certification, labor relations, staff welfare, and ongoing skill development.</p>
+          <span class="dept-staff-tag">6 HR & Compliance Officers</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       HEAVY MACHINERY & EQUIPMENT FLEET ("THE ARSENAL")
+       ======================================================================== -->
+  <section class="fleet-section" id="fleet">
+    <div class="container">
+      <div class="text-center" style="margin-bottom: 40px;">
+        <span class="section-tag gold">Plant & Equipment Power</span>
+        <h2 class="section-title" style="color: #ffffff;">The Machinery Arsenal</h2>
+        <p class="section-subtitle centered" style="color: var(--concrete-300);">
+          Self-sufficiency is our cornerstone. Prime Construction operates an extensive fleet of yellow plant and heavy transport vehicles, ensuring immediate mobilization for large-scale developments.
+        </p>
+      </div>
+
+      <div class="fleet-hero-card">
+        <img src="assets/images/machinery_fleet_arsenal.jpg" alt="Prime Construction heavy equipment fleet lined up on civil site">
+        <div class="fleet-hero-content">
+          <div class="fleet-hero-info">
+            <h3>40+ Heavy Equipment Units in Active Deployment</h3>
+            <p>From 40-tonne crawler excavators to telescopic cranes and tippers, our in-house maintenance division keeps all assets at peak operational readiness.</p>
+          </div>
+          <button class="btn-primary" onclick="openRfqModal()">
+            <i data-lucide="calendar" style="width: 16px; height: 16px;"></i>
+            Inquire Fleet Capacity
+          </button>
+        </div>
+      </div>
+
+      <div class="fleet-grid">
+        <div class="fleet-card">
+          <i data-lucide="shovel" class="fleet-card-icon" style="width: 32px; height: 32px;"></i>
+          <h4>Crawler Excavators</h4>
+          <p>CAT 336 & Komatsu PC300 heavy earthmovers for deep basement excavations, foundation trenches, and land clearing.</p>
+          <span class="fleet-spec-pill">Bucket Cap: 1.8 - 2.4 m³</span>
+        </div>
+
+        <div class="fleet-card">
+          <i data-lucide="anchor" class="fleet-card-icon" style="width: 32px; height: 32px;"></i>
+          <h4>Mobile Telescopic Cranes</h4>
+          <p>Liebherr 70T to 120T all-terrain cranes for pre-cast structural beams, tower steel erection, and high-rise positioning.</p>
+          <span class="fleet-spec-pill">Boom Reach: Up to 60m</span>
+        </div>
+
+        <div class="fleet-card">
+          <i data-lucide="truck" class="fleet-card-icon" style="width: 32px; height: 32px;"></i>
+          <h4>Heavy Tipper Haulage</h4>
+          <p>Mercedes-Benz Actros 30-tonne multi-axle tippers for quarry aggregate, sand, and demolition spoils logistics.</p>
+          <span class="fleet-spec-pill">Payload: 30-Tonne</span>
+        </div>
+
+        <div class="fleet-card">
+          <i data-lucide="layers" class="fleet-card-icon" style="width: 32px; height: 32px;"></i>
+          <h4>Compactors & Road Plant</h4>
+          <p>Dynapac vibrating soil compactors, asphalt paving machines, and concrete transit boom pumps.</p>
+          <span class="fleet-spec-pill">Static Compaction: 18 Tonne</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       HSE & CIVIC TRUST
+       ======================================================================== -->
+  <section class="hse-section" id="hse">
+    <div class="container">
+      <div class="hse-container">
+        <div>
+          <span class="section-tag red">Zero Compromise Policy</span>
+          <h2 class="section-title">Health, Safety & Civic Governance</h2>
+          <p class="section-subtitle">
+            Safety isn't just a protocol at Prime Construction; it is embedded in our corporate DNA. Every site engineer, ironworker, and equipment operator undergoes mandatory Health, Safety, and Environment (HSE) briefings every morning.
+          </p>
+          <ul style="margin-bottom: 24px; color: var(--concrete-600); display: grid; gap: 12px;">
+            <li style="display: flex; align-items: center; gap: 10px;">
+              <i data-lucide="check" style="color: var(--prime-red); width: 18px; height: 18px;"></i>
+              <strong>100% Mandatory PPE:</strong> Helmets, safety harnesses, steel-toe boots, and high-vis attire on all active plots.
+            </li>
+            <li style="display: flex; align-items: center; gap: 10px;">
+              <i data-lucide="check" style="color: var(--prime-red); width: 18px; height: 18px;"></i>
+              <strong>Civic Reconstruction Experience:</strong> Trusted by federal and state agencies to reconstruct high-security police divisional headquarters.
+            </li>
+            <li style="display: flex; align-items: center; gap: 10px;">
+              <i data-lucide="check" style="color: var(--prime-red); width: 18px; height: 18px;"></i>
+              <strong>Environmental Standards:</strong> Stormwater control, dust suppression systems, and low-waste precast elements.
+            </li>
+          </ul>
+        </div>
+
+        <div class="hse-card">
+          <h3 style="font-size: 1.5rem; margin-bottom: 8px;">Safety Track Record</h3>
+          <p style="color: var(--concrete-500); font-size: 0.9375rem;">Independently verified metrics since our establishment on June 20, 2016.</p>
+
+          <div class="hse-stats-list">
+            <div class="hse-stat-box">
+              <div class="hse-stat-num" style="color: var(--prime-red);">0</div>
+              <div class="hse-stat-lbl">Fatal Incidents Across 10 Years</div>
+            </div>
+            <div class="hse-stat-box">
+              <div class="hse-stat-num" style="color: var(--steel-blue);">1,850+</div>
+              <div class="hse-stat-lbl">Toolbox Safety Talks Conducted</div>
+            </div>
+            <div class="hse-stat-box">
+              <div class="hse-stat-num" style="color: var(--arch-gold);">100%</div>
+              <div class="hse-stat-lbl">Insurance & Indemnity Coverage</div>
+            </div>
+            <div class="hse-stat-box">
+              <div class="hse-stat-num" style="color: var(--concrete-900);">9 Depts</div>
+              <div class="hse-stat-lbl">Certified Safety Compliance</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       2026 NIGERIAN CONTEMPORARY HOUSE COST & PLACEMENT FEE SECTION
+       ======================================================================== -->
+  <section class="cost-section" id="cost-estimator">
+    <div class="container">
+      <div class="text-center" style="margin-bottom: 40px;">
+        <span class="section-tag gold">
+          <i data-lucide="calculator" style="width: 14px; height: 14px;"></i>
+          2026 Empirical Market Intelligence & Fee Matrix
+        </span>
+        <h2 class="section-title">Contemporary Nigerian Building Costs & Fee Placement</h2>
+        <p class="section-subtitle centered">
+          Transparent, empirical construction benchmarks and statutory professional consultancy fee schedules (ARCON, COREN, NIQS) for building contemporary homes across Abuja FCT, Lagos, and Nigeria.
+        </p>
+      </div>
+
+      <!-- View Switcher Tabs -->
+      <div class="cost-view-tabs" role="tablist">
+        <button class="cost-view-tab active" data-view="costPaneCalculator" role="tab">
+          <i data-lucide="sliders" style="width: 18px; height: 18px;"></i>
+          Interactive Building Cost & BOQ Estimator
+        </button>
+        <button class="cost-view-tab" data-view="costPaneFeeSchedule" role="tab">
+          <i data-lucide="file-check-2" style="width: 18px; height: 18px;"></i>
+          Official Pre-Construction Consultancy Fee Scale
+        </button>
+      </div>
+
+      <!-- Pane 1: Interactive Cost Estimator -->
+      <div class="cost-view-pane active" id="costPaneCalculator">
+        <div class="cost-calc-grid">
+          
+          <!-- Left: User Configuration Panel -->
+          <div class="calc-inputs-card">
+            <div class="calc-section-title">
+              <i data-lucide="home" style="width: 20px; height: 20px; color: var(--sky-blue);"></i>
+              Step 1: Choose Building Typology & Grade
+            </div>
+
+            <div class="calc-group">
+              <label for="calcTypologySelect">Contemporary Housing Typology</label>
+              <select class="form-control" id="calcTypologySelect">
+                <option value="bungalow-3bed">3-Bedroom Contemporary Bungalow (Minimalist Parapet / Flat Roof, ~200 m²)</option>
+                <option value="duplex-4bed" selected>4-Bedroom Contemporary Terrace / Semi-Detached Duplex (~280 m²)</option>
+                <option value="duplex-5bed">5-Bedroom Detached Smart Villa with Penthouse & BQ (~380 m²)</option>
+                <option value="flats-block">Block of 6 Units of 2-Bedroom Luxury Apartments (G+2 Floors, ~780 m²)</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <div class="calc-group">
+                <label for="calcFinishSelect">Finishing Specification</label>
+                <select class="form-control" id="calcFinishSelect">
+                  <option value="standard" selected>Tier-1 Contemporary Standard (₦220k – ₦295k/m²)</option>
+                  <option value="luxury">Ultra-Luxury Smart Executive (₦310k – ₦460k/m²)</option>
+                </select>
+              </div>
+
+              <div class="calc-group">
+                <label for="calcLocationSelect">Project Location</label>
+                <select class="form-control" id="calcLocationSelect">
+                  <option value="abuja-prime">Abuja FCT — Prime (Maitama, Guzape, Asokoro, Wuse, CBD)</option>
+                  <option value="abuja-suburban" selected>Abuja FCT — Suburban (Gwarinpa, Lugbe, Kubwa, Jahi, Lokogoma)</option>
+                  <option value="lagos-island">Lagos Island (Ikoyi, Victoria Island, Lekki Phase 1)</option>
+                  <option value="lagos-mainland">Lagos Mainland (Ikeja GRA, Magodo, Surulere, Yaba)</option>
+                  <option value="ph-oil">Rivers State (Port Harcourt / GRA / Trans-Amadi)</option>
+                  <option value="regional-metro">Other Metros (Ibadan, Enugu, Kano, Benin, Asaba)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="calc-section-title" style="margin-top: 28px;">
+              <i data-lucide="award" style="width: 20px; height: 20px; color: var(--arch-gold);"></i>
+              Step 2: Pre-Construction Consultancy Placement (Select Services)
+            </div>
+            <p style="font-size: 0.8125rem; color: var(--text-muted); margin-bottom: 14px;">
+              Toggle pre-construction professional packages. Placement fees adhere to statutory regulations (ARCON, COREN, NIQS).
+            </p>
+
+            <div class="calc-prof-list">
+              <!-- Architectural Design -->
+              <label class="calc-prof-item">
+                <input type="checkbox" class="calc-prof-check" data-fee="arch" data-label="Architectural & BIM Working Drawings" checked>
+                <div class="calc-prof-content">
+                  <div class="calc-prof-title">
+                    <span>Architectural BIM & 3D Visualization (ARCON / NIA Scale)</span>
+                    <span class="calc-fee-badge" id="feeBadge_arch">₦2,400,000</span>
+                  </div>
+                  <div class="calc-prof-desc">
+                    Floor plans, 4 elevations, 2 sections, 3D photorealistic exterior & interior renders, door/window schedules, FCDA / State approval set.
+                  </div>
+                </div>
+              </label>
+
+              <!-- Structural Engineering -->
+              <label class="calc-prof-item">
+                <input type="checkbox" class="calc-prof-check" data-fee="structural" data-label="Structural Engineering & Calculations" checked>
+                <div class="calc-prof-content">
+                  <div class="calc-prof-title">
+                    <span>Structural Engineering & Civil Calculations (COREN Stamped)</span>
+                    <span class="calc-fee-badge" id="feeBadge_structural">₦950,000</span>
+                  </div>
+                  <div class="calc-prof-desc">
+                    Foundation design (strip/pad/raft), suspended slab & beam reinforcement schedules, staircase detailing, calculation report stamped with COREN practicing seal.
+                  </div>
+                </div>
+              </label>
+
+              <!-- MEP Engineering -->
+              <label class="calc-prof-item">
+                <input type="checkbox" class="calc-prof-check" data-fee="mep" data-label="Mechanical & Electrical Engineering Design" checked>
+                <div class="calc-prof-content">
+                  <div class="calc-prof-title">
+                    <span>Mechanical & Electrical (MEP) Engineering Design</span>
+                    <span class="calc-fee-badge" id="feeBadge_mep">₦750,000</span>
+                  </div>
+                  <div class="calc-prof-desc">
+                    Power distribution diagrams, inverter/solar load balance, CCTV/smart automation conduits, hot/cold plumbing risers, and drainage schematic.
+                  </div>
+                </div>
+              </label>
+
+              <!-- Quantity Surveying -->
+              <label class="calc-prof-item">
+                <input type="checkbox" class="calc-prof-check" data-fee="qs" data-label="Quantity Surveying & Itemized BOQ" checked>
+                <div class="calc-prof-content">
+                  <div class="calc-prof-title">
+                    <span>Quantity Surveying & Itemized BOQ (QSRBN / NIQS Scale)</span>
+                    <span class="calc-fee-badge" id="feeBadge_qs">₦650,000</span>
+                  </div>
+                  <div class="calc-prof-desc">
+                    Itemized Priced & Unpriced Bill of Quantities (BOQ), Material Take-Off (MTO) schedule for cement, rebar, granite, and labor cost analysis.
+                  </div>
+                </div>
+              </label>
+
+              <!-- Geotechnical Soil Test -->
+              <label class="calc-prof-item">
+                <input type="checkbox" class="calc-prof-check" data-fee="soil" data-label="Geotechnical Soil Investigation">
+                <div class="calc-prof-content">
+                  <div class="calc-prof-title">
+                    <span>Geotechnical Soil Investigation & Borehole Test</span>
+                    <span class="calc-fee-badge" id="feeBadge_soil">₦500,000</span>
+                  </div>
+                  <div class="calc-prof-desc">
+                    Site borehole drilling, standard penetration testing (SPT), laboratory shear analysis, and certified soil bearing capacity report.
+                  </div>
+                </div>
+              </label>
+
+              <!-- Statutory Approvals Processing -->
+              <label class="calc-prof-item">
+                <input type="checkbox" class="calc-prof-check" data-fee="permits" data-label="Statutory Planning Approvals Vetting">
+                <div class="calc-prof-content">
+                  <div class="calc-prof-title">
+                    <span>Statutory Development Permits & Planning Vetting Liaison</span>
+                    <span class="calc-fee-badge" id="feeBadge_permits">₦850,000</span>
+                  </div>
+                  <div class="calc-prof-desc">
+                    FCDA (Abuja) or State Physical Planning (e.g. LASPPPA) document coordination, assessment payments facilitation, and vetting defense.
+                  </div>
+                </div>
+              </label>
+
+              <!-- Project Management -->
+              <label class="calc-prof-item">
+                <input type="checkbox" class="calc-prof-check" data-fee="pm" data-label="Turnkey Project Management & QA/QC">
+                <div class="calc-prof-content">
+                  <div class="calc-prof-title">
+                    <span>Turnkey Site QA/QC Supervision & Project Management</span>
+                    <span class="calc-fee-badge" id="feeBadge_pm">₦2,200,000</span>
+                  </div>
+                  <div class="calc-prof-desc">
+                    Milestone concrete cylinder crush tests, structural bar placement auditing, site safety governance, and weekly executive progress reporting.
+                  </div>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Right: Live Result Dashboard Card -->
+          <div class="calc-result-dashboard">
+            <div class="dashboard-header">
+              <span class="section-tag gold" style="font-size: 0.6875rem; margin-bottom: 8px;">Real-Time Market Estimate</span>
+              <h3 class="dashboard-title">Project Investment Summary</h3>
+              <div class="dashboard-subtitle" id="calcGrossArea">280 m² Gross Footprint</div>
+            </div>
+
+            <!-- Estimated Construction Range -->
+            <div class="cost-hero-figure">
+              <div class="cost-hero-lbl">Estimated Direct Construction Cost</div>
+              <div class="cost-hero-val" id="calcCostRange">₦75.6M – ₦86.0M</div>
+              <div class="cost-metric-sub">
+                <span>Unit Rate: <strong id="calcCostPerSqm" style="color: #ffffff;">₦270,000 / m²</strong></span>
+                <span>Delivery: <strong id="calcTimeline" style="color: #ffffff;">6 – 8 Months</strong></span>
+              </div>
+            </div>
+
+            <!-- Professional Fees Total -->
+            <div style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); padding: 16px 20px; border-radius: var(--radius-md); margin-bottom: 18px;">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <span style="font-size: 0.8125rem; color: #94a3b8; text-transform: uppercase;">Selected Pre-Construction Fees:</span>
+                <span style="font-family: var(--font-mono); font-size: 1.125rem; font-weight: 700; color: var(--sky-blue-light);" id="calcProfFeeTotal">₦4,750,000</span>
+              </div>
+            </div>
+
+            <!-- Combined Total Budget -->
+            <div style="background: linear-gradient(135deg, rgba(2, 132, 199, 0.25) 0%, rgba(217, 119, 6, 0.25) 100%); border: 1px solid rgba(2, 132, 199, 0.5); padding: 18px 20px; border-radius: var(--radius-lg); margin-bottom: 24px;">
+              <div style="font-size: 0.75rem; color: #cbd5e1; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 4px;">Total Estimated Project Budget (All-Inclusive)</div>
+              <div style="font-family: var(--font-heading); font-size: 1.75rem; font-weight: 700; color: #ffffff;" id="calcTotalProjectBudget">₦80.4M – ₦90.8M</div>
+            </div>
+
+            <!-- Material Estimates Box -->
+            <div class="material-estimates-box">
+              <div class="material-box-title">
+                <i data-lucide="boxes" style="width: 14px; height: 14px;"></i>
+                Empirical Material Sizing (Structural Phase)
+              </div>
+              <div class="material-mini-grid">
+                <div class="material-mini-item">
+                  <span class="material-mini-lbl">Cement (Dangote/BUA 42.5R)</span>
+                  <span class="material-mini-val" id="matEstCement">~1,850 Bags</span>
+                </div>
+                <div class="material-mini-item">
+                  <span class="material-mini-lbl">High-Yield Rebar (10-16mm)</span>
+                  <span class="material-mini-val" id="matEstRebar">~14.5 Tonnes</span>
+                </div>
+                <div class="material-mini-item">
+                  <span class="material-mini-lbl">Clean Granite (3/4 Inch)</span>
+                  <span class="material-mini-val" id="matEstGranite">~18 Trips (30T)</span>
+                </div>
+                <div class="material-mini-item">
+                  <span class="material-mini-lbl">Sharp Sand (River Plaster)</span>
+                  <span class="material-mini-val" id="matEstSand">~22 Trips (20T)</span>
+                </div>
+                <div class="material-mini-item" style="grid-column: span 2;">
+                  <span class="material-mini-lbl">9-Inch Vibrated Hollow Blocks</span>
+                  <span class="material-mini-val" id="matEstBlocks">~9,200 Blocks</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="dashboard-action-group">
+              <button class="btn-primary" onclick="transferEstimateToRfq()" style="width: 100%; justify-content: center; padding: 14px;">
+                <i data-lucide="file-text" style="width: 16px; height: 16px;"></i>
+                Transfer Estimate to Formal RFQ / Tender Bid
+              </button>
+              <a href="https://t.me/primeconstruction_ng" target="_blank" rel="noopener" class="btn-telegram" style="width: 100%; justify-content: center;">
+                <i data-lucide="send" style="width: 16px; height: 16px;"></i>
+                Review BOQ with Chief Quantity Surveyor on Telegram
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Pane 2: Official Pre-Construction Consultancy Placement Fee Schedule -->
+      <div class="cost-view-pane" id="costPaneFeeSchedule">
+        <div class="cost-table-card">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px; margin-bottom: 24px;">
+            <div>
+              <span class="section-tag red">Statutory Professional Scales</span>
+              <h3 style="font-size: 1.5rem; margin-top: 6px;">Pre-Construction Professional Placement Fee Guide</h3>
+              <p style="color: var(--text-secondary); font-size: 0.9375rem; max-width: 680px; margin-top: 4px;">
+                Placement fees reflect standard regulatory scales issued by ARCON, COREN, QSRBN, and NIQS for contemporary private residential and commercial builds in Nigeria.
+              </p>
+            </div>
+            <div style="display: flex; gap: 8px;">
+              <span class="statutory-badge arcon">ARCON / NIA</span>
+              <span class="statutory-badge coren">COREN / NSE</span>
+              <span class="statutory-badge niqs">QSRBN / NIQS</span>
+            </div>
+          </div>
+
+          <div class="mobile-table-hint">
+            <i data-lucide="arrow-left-right" style="width: 14px; height: 14px;"></i>
+            Swipe horizontally to view full fee schedule and deliverables
+          </div>
+
+          <div class="table-responsive-wrapper">
+            <table class="placement-fee-table">
+              <thead>
+                <tr>
+                  <th style="width: 25%;">Service Role & Regulatory Body</th>
+                  <th style="width: 20%;">Standard Fee Metric</th>
+                  <th style="width: 25%;">Typical Market Placement Range</th>
+                  <th style="width: 30%;">Statutory Deliverables & Handover</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Architecture -->
+                <tr>
+                  <td class="service-role-cell">
+                    <strong>Architectural Design & BIM Studio</strong>
+                    <span class="statutory-badge arcon">ARCON / NIA Scale</span>
+                  </td>
+                  <td>
+                    <strong>3.5% – 7.0%</strong> of construction budget or fixed lump-sum per typology
+                  </td>
+                  <td>
+                    <div style="font-family: var(--font-mono); font-weight: 700; color: var(--text-primary);">
+                      Bungalow: ₦800k – ₦1.8M<br>
+                      4-5 Bed Duplex: ₦1.8M – ₦4.5M<br>
+                      Multi-Unit: ₦4.5M – ₦12.0M+
+                    </div>
+                  </td>
+                  <td>
+                    <ul class="table-deliverables-list">
+                      <li>BIM 3D Parametric CAD / Revit Models</li>
+                      <li>Detailed Floor Plans, 4 Elevations & 2 Building Sections</li>
+                      <li>Door, Window & Glazing Manufacturing Schedules</li>
+                      <li>FCDA / State Planning Vetting Ready Approval Sets</li>
+                      <li>4K Photorealistic Exterior & Interior Visualizations</li>
+                    </ul>
+                  </td>
+                </tr>
+
+                <!-- Structural Engineering -->
+                <tr>
+                  <td class="service-role-cell">
+                    <strong>Structural & Civil Engineering</strong>
+                    <span class="statutory-badge coren">COREN / NSE ECOPACCE</span>
+                  </td>
+                  <td>
+                    <strong>1.5% – 3.0%</strong> of structural element value or flat lump-sum
+                  </td>
+                  <td>
+                    <div style="font-family: var(--font-mono); font-weight: 700; color: var(--text-primary);">
+                      Bungalow: ₦350k – ₦750k<br>
+                      Duplex (Slab/Beams): ₦750k – ₦1.8M<br>
+                      Raft / Multi-Floor: ₦1.8M – ₦4.5M
+                    </div>
+                  </td>
+                  <td>
+                    <ul class="table-deliverables-list">
+                      <li>Foundation Analysis (Strip, Pad, Raft or Mini-Piling)</li>
+                      <li>Reinforced Concrete Columns & Suspended Slab Detailing</li>
+                      <li>Bar Bending Schedule (BBS) for 10mm, 12mm, 16mm & 20mm Rebar</li>
+                      <li>Seismic, Wind Load & Cantilever Calculations Report</li>
+                      <li><strong>COREN Practicing Engineer Seal & Signature</strong></li>
+                    </ul>
+                  </td>
+                </tr>
+
+                <!-- Quantity Surveying & BOQ -->
+                <tr>
+                  <td class="service-role-cell">
+                    <strong>Quantity Surveying & Commercial Advisory</strong>
+                    <span class="statutory-badge niqs">QSRBN / NIQS Scale</span>
+                  </td>
+                  <td>
+                    <strong>1.5% – 3.0%</strong> of project cost or fixed fee for Tender BOQ
+                  </td>
+                  <td>
+                    <div style="font-family: var(--font-mono); font-weight: 700; color: var(--text-primary);">
+                      Bungalow: ₦250k – ₦600k<br>
+                      4-5 Bed Duplex: ₦500k – ₦1.5M<br>
+                      Commercial: ₦1.5M – ₦4.0M+
+                    </div>
+                  </td>
+                  <td>
+                    <ul class="table-deliverables-list">
+                      <li>Fully Itemized Priced & Unpriced Bill of Quantities (BOQ)</li>
+                      <li>Material Take-Off (MTO) for Cement, Granite, Sand & Iron Rods</li>
+                      <li>Direct Labor Cost & Artisans Rate Build-Up Analysis</li>
+                      <li>Cash Flow Schedule & Milestone Disbursement Plan</li>
+                      <li>Contractor Tender Evaluation & Bid Validation</li>
+                    </ul>
+                  </td>
+                </tr>
+
+                <!-- MEP Engineering -->
+                <tr>
+                  <td class="service-role-cell">
+                    <strong>Mechanical & Electrical (MEP) Engineering</strong>
+                    <span class="statutory-badge coren">COREN Guidelines</span>
+                  </td>
+                  <td>
+                    <strong>1.0% – 2.5%</strong> or negotiated flat rate per floor
+                  </td>
+                  <td>
+                    <div style="font-family: var(--font-mono); font-weight: 700; color: var(--text-primary);">
+                      Bungalow: ₦300k – ₦600k<br>
+                      Duplex: ₦600k – ₦1.4M<br>
+                      Multi-Unit: ₦1.4M – ₦3.5M
+                    </div>
+                  </td>
+                  <td>
+                    <ul class="table-deliverables-list">
+                      <li>Power Distribution & Lighting Layout Schemes</li>
+                      <li>Hybrid Inverter, Battery & Solar PV Microgrid Load Balancing</li>
+                      <li>Smart Home Automation, CCTV & LAN Conduit Routing</li>
+                      <li>Cold & Hot Water Plumbing Distribution & Waste Water Drainage</li>
+                      <li>Septic Tank, Bio-Digester & Soakaway Pit Specifications</li>
+                    </ul>
+                  </td>
+                </tr>
+
+                <!-- Geotechnical Soil Investigation -->
+                <tr>
+                  <td class="service-role-cell">
+                    <strong>Geotechnical Soil & Topographical Survey</strong>
+                    <span class="statutory-badge survey">SURCON / Geo-Lab Certified</span>
+                  </td>
+                  <td>
+                    Per test point / Borehole depth (Typically 10m – 25m)
+                  </td>
+                  <td>
+                    <div style="font-family: var(--font-mono); font-weight: 700; color: var(--text-primary);">
+                      Soil Test (2 Boreholes): ₦450k – ₦950k<br>
+                      Topographical Survey: ₦200k – ₦500k
+                    </div>
+                  </td>
+                  <td>
+                    <ul class="table-deliverables-list">
+                      <li>Borehole Rotary Core Drilling & Standard Penetration Test (SPT)</li>
+                      <li>Laboratory Sieve Analysis, Atterberg Limits & Moisture Content</li>
+                      <li>Safe Allowable Soil Bearing Capacity (&le; 150 kN/m²)</li>
+                      <li>Groundwater Table & Foundation Type Recommendation</li>
+                    </ul>
+                  </td>
+                </tr>
+
+                <!-- Project Management -->
+                <tr>
+                  <td class="service-role-cell">
+                    <strong>Full Turnkey Project Management & QA/QC</strong>
+                    <span class="statutory-badge coren">COREN / NIQS Framework</span>
+                  </td>
+                  <td>
+                    <strong>4.0% – 7.0%</strong> or monthly retainer (₦250k – ₦650k/mo)
+                  </td>
+                  <td>
+                    <div style="font-family: var(--font-mono); font-weight: 700; color: var(--text-primary);">
+                      ₦250k – ₦650k / Month<br>
+                      (or 4% – 7% of verified valuation)
+                    </div>
+                  </td>
+                  <td>
+                    <ul class="table-deliverables-list">
+                      <li>Full Site Supervision & Artisan Productivity Management</li>
+                      <li>Concrete Cube Compressive Strength Laboratory Crush Tests</li>
+                      <li>Steel Reinforcement Placement Verification prior to Casting</li>
+                      <li>Interim Milestone Valuation Certificates for Bank/Client Release</li>
+                      <li>Zero Snag Handover & 1-Year Defects Liability Management</li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div style="margin-top: 32px; background: var(--bg-surface); padding: 20px 24px; border-radius: var(--radius-md); border: 1px solid var(--sky-blue-border); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px;">
+            <div style="max-width: 650px;">
+              <h4 style="font-size: 1rem; color: var(--text-primary); margin-bottom: 4px;">Need a Tailored Commercial or Institutional Fee Proposal?</h4>
+              <p style="font-size: 0.8125rem; color: var(--text-secondary); line-height: 1.5;">
+                Prime Construction’s in-house team provides unified multidisciplinary packages (Architectural + Structural + MEP + BOQ), eliminating coordination conflicts and saving up to 25% compared to hiring fragmented consultants.
+              </p>
+            </div>
+            <button class="btn-primary" onclick="openRfqModal()">
+              <i data-lucide="calculator" style="width: 16px; height: 16px;"></i>
+              Request Formal Tender BOQ
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       CONTACT & ABUJA HQ HUB
+       ======================================================================== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="text-center" style="margin-bottom: 48px;">
+        <span class="section-tag">Direct Lines to Abuja Headquarters</span>
+        <h2 class="section-title">Initiate Your Next Landmark</h2>
+        <p class="section-subtitle centered">
+          Whether you are planning a high-end residential estate in Guzape, a commercial shopping plaza, or a state civil infrastructure tender, our executive team is ready to consult.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Information Card -->
+        <div class="contact-card-info">
+          <div class="contact-detail-row">
+            <div class="contact-icon-wrapper">
+              <i data-lucide="map-pin" style="width: 24px; height: 24px;"></i>
+            </div>
+            <div class="contact-detail-text">
+              <h4>Headquarters Address</h4>
+              <p>A20, Nkwegu Plaza, Area 1 Garki - FCT, Abuja, Nigeria</p>
+            </div>
+          </div>
+
+          <div class="contact-detail-row">
+            <div class="contact-icon-wrapper">
+              <i data-lucide="mail" style="width: 24px; height: 24px;"></i>
+            </div>
+            <div class="contact-detail-text">
+              <h4>Official Email Desk</h4>
+              <p><a href="mailto:primeconst@gmail.com">primeconst@gmail.com</a></p>
+              <p style="font-size: 0.75rem; color: var(--concrete-400);">Monitored 24/7 by Executive Desk</p>
+            </div>
+          </div>
+
+          <div class="contact-detail-row">
+            <div class="contact-icon-wrapper">
+              <i data-lucide="calendar" style="width: 24px; height: 24px;"></i>
+            </div>
+            <div class="contact-detail-text">
+              <h4>Operating Hours</h4>
+              <p>Monday – Friday: 08:00 AM – 06:00 PM</p>
+              <p>Saturday: 09:00 AM – 02:00 PM (Emergency Site Logistics)</p>
+            </div>
+          </div>
+
+          <div class="quick-chat-buttons" style="flex-wrap: wrap;">
+            <a href="https://t.me/primeconstruction_ng" target="_blank" rel="noopener" class="btn-telegram">
+              <i data-lucide="send" style="width: 18px; height: 18px;"></i>
+              Telegram Desk
+            </a>
+            <a href="https://wa.me/2348000000000?text=Hello%20Prime%20Construction%20Team%2C%20I%20would%20like%20to%20discuss%20a%20construction%20project." target="_blank" rel="noopener" class="btn-whatsapp">
+              <i data-lucide="message-circle" style="width: 18px; height: 18px;"></i>
+              WhatsApp Direct Chat
+            </a>
+            <button class="btn-secondary" onclick="openRfqModal()">
+              <i data-lucide="file-spreadsheet" style="width: 16px; height: 16px;"></i>
+              Submit RFQ Tender
+            </button>
+          </div>
+        </div>
+
+        <!-- Consultation Form -->
+        <div class="contact-form-box">
+          <h3 style="font-size: 1.5rem; margin-bottom: 8px;">Project Consultation Request</h3>
+          <p style="color: var(--concrete-500); font-size: 0.875rem; margin-bottom: 24px;">Complete the form below to connect directly with our Architecture and Quantity Surveying directors.</p>
+
+          <form id="mainContactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="clientName">Full Name / Organization *</label>
+                <input type="text" id="clientName" class="form-control" placeholder="e.g., Arc. Ibrahim Bello / Consortium" required>
+              </div>
+              <div class="form-group">
+                <label for="clientEmail">Email Address *</label>
+                <input type="email" id="clientEmail" class="form-control" placeholder="client@company.com" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="clientPhone">Phone Number / WhatsApp *</label>
+                <input type="tel" id="clientPhone" class="form-control" placeholder="+234 800 000 0000" required>
+              </div>
+              <div class="form-group">
+                <label for="projectType">Project Typology *</label>
+                <select id="projectType" class="form-control" required>
+                  <option value="" disabled selected>Select Typology</option>
+                  <option value="luxury-residential">Luxury Residential (Villa/Estate)</option>
+                  <option value="commercial-plaza">Commercial Plaza / Retail Mall</option>
+                  <option value="civil-roads">Civil Infrastructure & Roadworks</option>
+                  <option value="corporate-complex">Corporate Office Complex</option>
+                  <option value="police-civic">Police Station / Civic Reconstruction</option>
+                  <option value="machinery-lease">Heavy Plant & Machinery Logistics</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="projectLocation">Project Location *</label>
+              <input type="text" id="projectLocation" class="form-control" placeholder="e.g. Maitama, Guzape, Garki Abuja or other State" required>
+            </div>
+
+            <div class="form-group">
+              <label for="projectBrief">Project Brief / Scope Details</label>
+              <textarea id="projectBrief" class="form-control" rows="4" placeholder="Describe estimated footprint, timeline, or upload specifications..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary" style="width: 100%;">
+              <i data-lucide="send" style="width: 16px; height: 16px;"></i>
+              Transmit Inquiry to Executive Desk
+            </button>
+          </form>
+
+          <div id="contactFormFeedback" style="display: none;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       GLOBAL FOOTER
+       ======================================================================== -->
+  <footer class="main-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand">
+          <div class="brand-logo" style="margin-bottom: 16px;">
+            <div class="brand-mark">
+              <i data-lucide="building-2" style="width: 22px; height: 22px;"></i>
+            </div>
+            <div class="brand-text">
+              <h1 style="color: #ffffff;">PRIME</h1>
+              <span style="color: var(--arch-gold);">CONSTRUCTION LTD</span>
+            </div>
+          </div>
+          <p>
+            Established June 20, 2016 in Abuja, Nigeria. A premier civil engineering and structural building contractor delivering landmarks with 150+ in-house experts and modern heavy plant.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#about-hq">Abuja Headquarters</a></li>
+            <li><a href="#cinematic-showcase">Live Operations Slider</a></li>
+            <li><a href="#projects">Landmark Portfolio</a></li>
+            <li><a href="#departments">The 9 Divisions</a></li>
+            <li><a href="#fleet">Machinery Arsenal</a></li>
+            <li><a href="#hse">Health & Safety (HSE)</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Key Divisions</h4>
+          <ul class="footer-links">
+            <li><a href="#departments">Architecture Studio</a></li>
+            <li><a href="#departments">Civil & Structural Engineering</a></li>
+            <li><a href="#departments">Quantity Surveying & BOQ</a></li>
+            <li><a href="#departments">Builders & Formwork</a></li>
+            <li><a href="#departments">Procurement Logistics</a></li>
+            <li><a href="#departments">Heavy Machinery Fleet</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Direct Contact</h4>
+          <p style="font-size: 0.875rem; margin-bottom: 8px;">A20, Nkwegu Plaza, Area 1 Garki, FCT Abuja</p>
+          <p style="font-size: 0.875rem; margin-bottom: 8px; color: var(--arch-gold);">
+            <a href="mailto:primeconst@gmail.com">primeconst@gmail.com</a>
+          </p>
+          <p style="font-size: 0.875rem; margin-bottom: 12px;">
+            <a href="https://t.me/primeconstruction_ng" target="_blank" rel="noopener" style="color: #0088cc; font-weight: 700;">Telegram: @primeconstruction_ng</a>
+          </p>
+          <span class="anniversary-pill" style="display: inline-block;">
+            10-Year Jubilee • 2016 – 2026
+          </span>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2016 – 2026 Prime Construction Ltd. RC Registered in the Federal Republic of Nigeria. All Rights Reserved.
+        </div>
+        <div style="display: flex; gap: 20px;">
+          <a href="#privacy">Privacy Policy</a>
+          <a href="#terms">Terms of Service</a>
+          <a href="#governance">HSE Compliance</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       MODAL 1: GLOBAL MODAL OVERLAY & PROJECT DETAIL MODAL
+       ======================================================================== -->
+  <div class="modal-overlay" id="globalModalOverlay" role="dialog" aria-modal="true">
+    <!-- Project Detail Modal -->
+    <div class="modal-container" id="projectDetailModal" style="display: none;">
+      <button class="modal-close-btn" aria-label="Close modal">
+        <i data-lucide="x" style="width: 20px; height: 20px;"></i>
+      </button>
+
+      <div class="modal-header">
+        <span class="section-tag" id="modalProjectCategory">Project Typology</span>
+        <h2 id="modalProjectTitle" style="font-size: 1.75rem; margin-top: 8px;">Project Title</h2>
+        <div style="display: flex; gap: 16px; margin-top: 8px; font-size: 0.875rem; color: var(--concrete-500);">
+          <span id="modalProjectLocation"><i data-lucide="map-pin" style="width: 14px; height: 14px; display: inline;"></i> Abuja</span>
+          <span id="modalProjectStatus" style="color: var(--prime-red); font-weight: 700;">Completed</span>
+        </div>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-project-hero">
+          <img id="modalHeroImg" src="" alt="Project Hero Image">
+        </div>
+
+        <div class="modal-specs-grid">
+          <div class="spec-item">
+            <h5>Client / Authority</h5>
+            <p id="modalProjectClient">Client</p>
+          </div>
+          <div class="spec-item">
+            <h5>Gross Footprint</h5>
+            <p id="modalProjectArea">Area</p>
+          </div>
+          <div class="spec-item">
+            <h5>Project Timeline</h5>
+            <p id="modalProjectTimeline">Timeline</p>
+          </div>
+          <div class="spec-item">
+            <h5>Structural Typology</h5>
+            <p id="modalProjectStructure">Structure</p>
+          </div>
+        </div>
+
+        <h4 style="font-size: 1.125rem; margin-bottom: 8px;">Scope of Work & Architectural Vision</h4>
+        <p id="modalProjectDesc" style="color: var(--concrete-600); line-height: 1.7; margin-bottom: 24px;">Project description...</p>
+
+        <!-- Interactive Before & After Comparison Slider -->
+        <h4 style="font-size: 1.125rem; margin-bottom: 8px;">Interactive Before & After Comparison</h4>
+        <p style="font-size: 0.8125rem; color: var(--concrete-500); margin-bottom: 12px;">Drag the red slider across to witness the transformation from active site groundwork to completed structural masterpiece.</p>
+
+        <div class="comparison-slider-container" id="comparisonContainer">
+          <div class="comparison-image-after">
+            <img id="compImgAfter" src="" alt="Finished Landmark">
+            <span class="comparison-label label-after">Completed Masterpiece</span>
+          </div>
+          <div class="comparison-image-before" id="compBeforeWrap">
+            <img id="compImgBefore" src="" alt="Active Site Construction">
+            <span class="comparison-label label-before">Active Construction / Groundwork</span>
+          </div>
+          <div class="comparison-handle" id="compHandle">
+            <i data-lucide="move-horizontal" style="width: 20px; height: 20px;"></i>
+          </div>
+        </div>
+
+        <div style="text-align: right; margin-top: 24px;">
+          <button class="btn-primary" onclick="openRfqModal()">
+            <i data-lucide="send" style="width: 16px; height: 16px;"></i>
+            Inquire on Similar Project Scope
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2: HQ Virtual Tour Modal -->
+    <div class="modal-container" id="hqTourModal" style="display: none;">
+      <button class="modal-close-btn" aria-label="Close modal">
+        <i data-lucide="x" style="width: 20px; height: 20px;"></i>
+      </button>
+
+      <div class="modal-header">
+        <span class="section-tag red">Interactive Experience</span>
+        <h2 style="font-size: 1.75rem; margin-top: 8px;">Abuja Headquarters — Suite A20, Nkwegu Plaza</h2>
+        <p style="color: var(--concrete-500); font-size: 0.875rem;">Area 1 Garki, Federal Capital Territory, Abuja, Nigeria</p>
+      </div>
+
+      <div class="modal-body">
+        <div class="hq-tour-tabs">
+          <button class="hq-tour-tab active" data-pane="tour-studio">Architectural & BIM Studio</button>
+          <button class="hq-tour-tab" data-pane="tour-planning">Structural Planning Deck</button>
+          <button class="hq-tour-tab" data-pane="tour-boardroom">Executive Boardroom</button>
+          <button class="hq-tour-tab" data-pane="tour-logistics">Logistics Command</button>
+        </div>
+
+        <!-- Pane 1: Studio -->
+        <div class="hq-tour-pane active" id="tour-studio">
+          <div class="hq-tour-hero-img">
+            <img src="assets/images/architects_design_studio.jpg" alt="Architectural design studio in Abuja">
+          </div>
+          <h3 style="font-size: 1.25rem; margin-bottom: 8px;">The BIM & Visualization Studio</h3>
+          <p style="color: var(--concrete-600); line-height: 1.6; margin-bottom: 16px;">
+            Located in the North Wing of Suite A20, our design studio is outfitted with high-performance graphic workstations, 3D visualization monitors, and tactile physical material sample boards. Here, our architects create parametric concepts, daylight studies, and photorealistic client walkthroughs.
+          </p>
+          <div style="display: flex; gap: 12px;">
+            <span class="spec-badge">AutoCAD & Revit 2026</span>
+            <span class="spec-badge">BIM Level 3 Collaboration</span>
+            <span class="spec-badge">FCDA Approval Ready</span>
+          </div>
+        </div>
+
+        <!-- Pane 2: Planning Deck -->
+        <div class="hq-tour-pane" id="tour-planning">
+          <div class="hq-tour-hero-img">
+            <img src="assets/images/engineers_planning_room.jpg" alt="Engineers planning structural blueprints">
+          </div>
+          <h3 style="font-size: 1.25rem; margin-bottom: 8px;">Structural & Quantity Surveying Hub</h3>
+          <p style="color: var(--concrete-600); line-height: 1.6; margin-bottom: 16px;">
+            The technical engine room where structural calculations, seismic/wind resistance models, and bills of quantities are audited. Our civil engineers and quantity surveyors collaborate directly across blueprint drafting tables to eliminate discrepancy before site mobilization.
+          </p>
+          <div style="display: flex; gap: 12px;">
+            <span class="spec-badge">Prokon / ETABS Analysis</span>
+            <span class="spec-badge">Cost Optimization Models</span>
+          </div>
+        </div>
+
+        <!-- Pane 3: Boardroom -->
+        <div class="hq-tour-pane" id="tour-boardroom">
+          <div class="hq-tour-hero-img">
+            <img src="assets/images/hero_corporate_landmark.jpg" alt="Prime Construction Boardroom Setting">
+          </div>
+          <h3 style="font-size: 1.25rem; margin-bottom: 8px;">The Executive Boardroom</h3>
+          <p style="color: var(--concrete-600); line-height: 1.6; margin-bottom: 16px;">
+            Where private developers, institutional investors, and government representatives meet with the Prime Construction executive committee. Outfitted for teleconferencing and digital blueprint presentations.
+          </p>
+        </div>
+
+        <!-- Pane 4: Logistics -->
+        <div class="hq-tour-pane" id="tour-logistics">
+          <div class="hq-tour-hero-img">
+            <img src="assets/images/machinery_fleet_arsenal.jpg" alt="Fleet logistics command">
+          </div>
+          <h3 style="font-size: 1.25rem; margin-bottom: 8px;">Fleet Telemetry & Dispatch Desk</h3>
+          <p style="color: var(--concrete-600); line-height: 1.6; margin-bottom: 16px;">
+            Real-time GPS tracking and mechanical maintenance monitoring for our 40+ heavy machinery units across Nigeria. Oversees diesel supply lines, driver rotation, and scheduled preventive maintenance.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3: Interactive RFQ & Proposal Estimator Modal -->
+    <div class="modal-container" id="rfqModal" style="display: none;">
+      <button class="modal-close-btn" aria-label="Close modal">
+        <i data-lucide="x" style="width: 20px; height: 20px;"></i>
+      </button>
+
+      <div class="modal-header">
+        <span class="section-tag gold">Tender & Proposal Desk</span>
+        <h2 style="font-size: 1.75rem; margin-top: 8px;">Request for Quotation (RFQ)</h2>
+        <p style="color: var(--concrete-500); font-size: 0.875rem;">Fast-track consultation with our Quantity Surveying and Engineering leadership.</p>
+      </div>
+
+      <div class="modal-body">
+        <div id="rfqFormContainer">
+          <!-- Step Indicator -->
+          <div class="rfq-steps-indicator">
+            <div class="rfq-step-circle active" id="rfqInd1">1</div>
+            <div class="rfq-step-circle" id="rfqInd2">2</div>
+            <div class="rfq-step-circle" id="rfqInd3">3</div>
+          </div>
+
+          <!-- Step 1: Typology -->
+          <div id="rfqStep1">
+            <h3 style="font-size: 1.125rem; margin-bottom: 16px;">Step 1: Select Project Typology</h3>
+            <div class="rfq-options-grid">
+              <div class="rfq-option-card selected" data-value="luxury">
+                <i data-lucide="home" style="color: var(--arch-gold); margin-bottom: 8px;"></i>
+                <h4>Luxury Residential Estate</h4>
+                <p>Private villas, duplex enclaves, or gated communities.</p>
+              </div>
+              <div class="rfq-option-card" data-value="commercial">
+                <i data-lucide="shopping-bag" style="color: var(--steel-blue); margin-bottom: 8px;"></i>
+                <h4>Commercial Plaza / Mall</h4>
+                <p>Retail atriums, mixed-use complexes, and supermarkets.</p>
+              </div>
+              <div class="rfq-option-card" data-value="civil">
+                <i data-lucide="compass" style="color: var(--prime-red); margin-bottom: 8px;"></i>
+                <h4>Civil & Road Infrastructure</h4>
+                <p>Highway dualization, drainage networks, and bridges.</p>
+              </div>
+              <div class="rfq-option-card" data-value="security">
+                <i data-lucide="shield" style="color: var(--concrete-800); margin-bottom: 8px;"></i>
+                <h4>Civic Security Reconstruction</h4>
+                <p>Police headquarters, security stations, or government facilities.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 2: Scale & Location -->
+          <div id="rfqStep2" style="display: none;">
+            <h3 style="font-size: 1.125rem; margin-bottom: 16px;">Step 2: Project Location & Estimated Budget Range</h3>
+            <div class="form-group">
+              <label>Target Location in Nigeria</label>
+              <select class="form-control" id="rfqLocationSelect">
+                <option value="abuja-fct" selected>Abuja - Federal Capital Territory</option>
+                <option value="lagos">Lagos State</option>
+                <option value="kano">Kano State</option>
+                <option value="rivers">Rivers State (Port Harcourt)</option>
+                <option value="other">Other State in Nigeria</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Estimated Project Scope / Gross Floor Area</label>
+              <select class="form-control" id="rfqScaleSelect">
+                <option value="small">Under 5,000 m² (Boutique Project)</option>
+                <option value="medium" selected>5,000 m² – 20,000 m² (Standard Commercial / Estate)</option>
+                <option value="large">20,000 m² – 50,000 m² (Mega Commercial / Infrastructure)</option>
+                <option value="macro">50,000 m²+ (Monumental Civil Works)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Target Mobilization Timeline</label>
+              <select class="form-control" id="rfqTimelineSelect">
+                <option value="immediate">Immediate (Within 30 Days)</option>
+                <option value="quarter">Next Quarter (1–3 Months)</option>
+                <option value="future">Tender Planning Phase (3–6 Months)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Step 3: Contact & Brief -->
+          <div id="rfqStep3" style="display: none;">
+            <h3 style="font-size: 1.125rem; margin-bottom: 16px;">Step 3: Direct Representative Details</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Principal Contact Name *</label>
+                <input type="text" class="form-control" placeholder="Your Name or Designation" required>
+              </div>
+              <div class="form-group">
+                <label>Corporate Organization</label>
+                <input type="text" class="form-control" placeholder="Company / Agency / Family Office">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Email Address *</label>
+                <input type="email" class="form-control" placeholder="direct@domain.com" required>
+              </div>
+              <div class="form-group">
+                <label>Phone / WhatsApp Number *</label>
+                <input type="tel" class="form-control" placeholder="+234 ..." required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Brief Description of Specific Objectives</label>
+              <textarea class="form-control" rows="3" placeholder="Include any existing architectural drawings, site coordinates, or budget expectations..."></textarea>
+            </div>
+          </div>
+
+          <!-- Navigation Buttons -->
+          <div class="rfq-nav-buttons">
+            <button class="btn-secondary" id="rfqBackBtn" style="visibility: hidden;">
+              <i data-lucide="arrow-left" style="width: 16px; height: 16px;"></i> Back
+            </button>
+            <button class="btn-primary" id="rfqNextBtn">
+              Continue to Next Step <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Success Box -->
+        <div id="rfqSuccessBox" class="rfq-success-message" style="display: none;">
+          <div class="rfq-success-icon">
+            <i data-lucide="check" style="width: 36px; height: 36px;"></i>
+          </div>
+          <h3 style="font-size: 1.5rem; margin-bottom: 8px;">Project Brief Transmitted</h3>
+          <p style="color: var(--concrete-600); max-width: 520px; margin: 0 auto 24px auto;">
+            Your project specification has been delivered to the **Quantity Surveyor and Engineering Leadership** at Suite A20, Nkwegu Plaza, Area 1 Garki, Abuja.
+          </p>
+          <div style="background: var(--bg-surface); padding: 16px; border-radius: 8px; border: var(--border-light); max-width: 440px; margin: 0 auto 24px auto; font-size: 0.875rem;">
+            A confirmation ticket has been dispatched. For urgent tender document submissions, email our team directly at <a href="mailto:primeconst@gmail.com" style="color: var(--prime-red); font-weight: 700;">primeconst@gmail.com</a>.
+          </div>
+          <button class="btn-secondary" onclick="document.getElementById('globalModalOverlay').classList.remove('active')">
+            Close & Return to Portal
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       LIVE CHATBOT & TELEGRAM CONCIERGE WIDGET
+       ======================================================================== -->
+  <button class="chatbot-launcher" id="chatbotLauncher" aria-label="Open live chat with Prime Engineering concierge">
+    <i data-lucide="message-square" style="width: 26px; height: 26px;"></i>
+    <span class="chatbot-pulse-dot" title="Online - Abuja Desk"></span>
+  </button>
+
+  <div class="chatbot-window" id="chatbotWindow" role="dialog" aria-label="Live Chat Concierge">
+    <!-- Header -->
+    <div class="chatbot-header">
+      <div class="chatbot-header-info">
+        <div class="chatbot-avatar">
+          <i data-lucide="bot" style="width: 22px; height: 22px;"></i>
+        </div>
+        <div>
+          <div class="chatbot-header-title">Prime Engineering AI</div>
+          <div class="chatbot-header-status">
+            <span style="width: 6px; height: 6px; border-radius: 50%; background: #22c55e; display: inline-block;"></span>
+            Online • Suite A20 Garki Desk
+          </div>
+        </div>
+      </div>
+      <div class="chatbot-header-actions">
+        <button class="chatbot-icon-btn" id="chatbotCloseBtn" aria-label="Close Chat">
+          <i data-lucide="x" style="width: 18px; height: 18px;"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Telegram Channel Strip -->
+    <div class="chatbot-channel-strip">
+      <span>Official Direct Channel</span>
+      <a href="https://t.me/primeconstruction_ng" target="_blank" rel="noopener" class="chatbot-channel-link">
+        <i data-lucide="send" style="width: 12px; height: 12px;"></i> Telegram Desk
+      </a>
+    </div>
+
+    <!-- Messages Container -->
+    <div class="chatbot-messages" id="chatbotMessages">
+      <div class="chat-msg bot">
+        <div class="chat-bubble">
+          Hello and welcome to <strong>Prime Construction Ltd</strong>! 🏗️<br><br>
+          I am your engineering concierge at our Abuja headquarters. How may we assist with your architectural or infrastructure vision today?
+        </div>
+        <span class="chat-time">Just now</span>
+      </div>
+    </div>
+
+    <!-- Quick Suggestion Pills -->
+    <div class="chatbot-suggestions">
+      <button class="suggestion-pill" data-prompt="Building costs and placement fees in Nigeria">📊 House Building Costs</button>
+      <button class="suggestion-pill" data-prompt="Architectural fees and structural engineering">📐 Architectural & QS Fees</button>
+      <button class="suggestion-pill" data-prompt="Request a project quote">💰 Request Project Quote</button>
+      <button class="suggestion-pill" data-prompt="Heavy machinery fleet availability">🚜 Machinery Fleet</button>
+      <button class="suggestion-pill" data-prompt="Connect with team on Telegram">💬 Chat on Telegram</button>
+    </div>
+
+    <!-- Input Bar -->
+    <div class="chatbot-input-bar">
+      <input type="text" class="chatbot-input" id="chatbotInput" placeholder="Ask about projects, fleet, or BOQ estimates..." aria-label="Type your message">
+      <button class="chatbot-send-btn" id="chatbotSendBtn" aria-label="Send message">
+        <i data-lucide="send" style="width: 16px; height: 16px;"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- JavaScript Modules -->
+  <script src="js/slider.js"></script>
+  <script src="js/modals.js"></script>
+  <script src="js/cost-calculator.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/chatbot.js"></script>
+
+  <!-- Lucide Icon Renderer -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (window.lucide) {
+        window.lucide.createIcons();
+      }
+    });
+  </script>
+</body>
+</html>

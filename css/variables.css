@@ -1,0 +1,99 @@
+/* ==========================================================================
+   PRIME CONSTRUCTION — ARCHITECTURAL DESIGN SYSTEM & VARIABLES
+   Warm Milk, Sky Blue, Touch of Red & Architectural Gold
+   ========================================================================== */
+
+:root {
+  /* Warm Milk & Soft Sky Blue Canvas & Surfaces */
+  --bg-primary: #faf8f5;          /* Warm Milk / Alabaster Cream */
+  --bg-surface: #f0f7fd;          /* Soft Sky Blue Tint */
+  --bg-subtle: #e0f2fe;           /* Delicate Sky Wash */
+  --bg-card: #ffffff;             /* Crisp Pure White */
+  --bg-card-hover: #f8fafc;
+  --bg-dark: #0b132b;             /* Deep Structural Navy Slate */
+  --bg-dark-surface: #14213d;     /* Elevated Navy Surface */
+
+  /* Text & Contrast Levels */
+  --text-primary: #0f172a;        /* Deep Navy Charcoal for crisp readability */
+  --text-secondary: #334155;      /* Slate Blue for descriptions */
+  --text-muted: #64748b;          /* Soft Slate for captions and metadata */
+  --text-light: #faf8f5;
+
+  /* Concrete & Warm Stone Neutrals */
+  --concrete-50: #faf8f5;
+  --concrete-100: #f0f7fd;
+  --concrete-200: #e2e8f0;
+  --concrete-300: #cbd5e1;
+  --concrete-400: #94a3b8;
+  --concrete-500: #64748b;
+  --concrete-600: #475569;
+  --concrete-700: #334155;
+  --concrete-800: #1e293b;
+  --concrete-900: #0f172a;
+
+  /* Primary Brand Color — Sky Blue */
+  --sky-blue: #0284c7;           /* Vibrant Structural Sky Blue */
+  --sky-blue-hover: #0369a1;
+  --sky-blue-light: #38bdf8;
+  --sky-blue-tint: #e0f2fe;
+  --sky-blue-subtle: rgba(2, 132, 199, 0.08);
+  --sky-blue-border: rgba(2, 132, 199, 0.2);
+  --sky-blue-glow: rgba(2, 132, 199, 0.25);
+
+  /* Touch of Red — High-Vis Safety & Strategic Brand Accent */
+  --prime-red: #dc2626;          /* Vibrant Prime Red */
+  --prime-red-hover: #b91c1c;
+  --prime-red-light: #ef4444;
+  --prime-red-subtle: rgba(220, 38, 38, 0.08);
+  --prime-red-border: rgba(220, 38, 38, 0.25);
+  --prime-red-glow: rgba(220, 38, 38, 0.2);
+
+  /* Maintained Architectural Gold */
+  --arch-gold: #d97706;          /* Construction Gold / Architectural Ochre */
+  --arch-gold-hover: #b45309;
+  --arch-gold-light: #f59e0b;
+  --arch-gold-subtle: rgba(217, 119, 6, 0.1);
+  --arch-gold-border: rgba(217, 119, 6, 0.3);
+  --arch-gold-glow: rgba(217, 119, 6, 0.2);
+
+  /* Typography */
+  --font-heading: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Borders & Radii */
+  --border-light: 1px solid rgba(2, 132, 199, 0.14);
+  --border-subtle: 1px solid rgba(2, 132, 199, 0.06);
+  --border-medium: 1px solid rgba(2, 132, 199, 0.25);
+  --border-dark: 1px solid rgba(255, 255, 255, 0.15);
+  --border-sky: 1px solid rgba(2, 132, 199, 0.3);
+  --border-red: 1px solid rgba(220, 38, 38, 0.3);
+  --border-gold: 1px solid rgba(217, 119, 6, 0.3);
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 4px 16px rgba(15, 23, 42, 0.07);
+  --shadow-lg: 0 12px 32px rgba(15, 23, 42, 0.1);
+  --shadow-xl: 0 24px 50px rgba(15, 23, 42, 0.14);
+  --shadow-sky: 0 10px 25px rgba(2, 132, 199, 0.25);
+  --shadow-red: 0 10px 25px rgba(220, 38, 38, 0.22);
+  --shadow-gold: 0 10px 25px rgba(217, 119, 6, 0.2);
+
+  /* Layout Spacing */
+  --container-max: 1280px;
+  --container-wide: 1440px;
+  --header-height: 80px;
+  --topbar-height: 40px;
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}

@@ -1,0 +1,516 @@
+/* ==========================================================================
+   PRIME CONSTRUCTION — INTERACTIVE MODALS STYLESHEET
+   Warm Milk, Sky Blue, Touch of Red & Architectural Gold
+   ========================================================================== */
+
+/* Modal Backdrop & Container */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(11, 19, 43, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.3s;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-container {
+  background: #ffffff;
+  width: 100%;
+  max-width: 920px;
+  max-height: 90vh;
+  border-radius: var(--radius-xl);
+  box-shadow: 0 30px 60px rgba(11, 19, 43, 0.35);
+  border: 1px solid var(--sky-blue-border);
+  color: var(--text-primary);
+  overflow-y: auto;
+  position: relative;
+  transform: translateY(20px) scale(0.98);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.modal-overlay.active .modal-container {
+  transform: translateY(0) scale(1);
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #f0f7fd;
+  border: 1px solid var(--sky-blue-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-primary);
+  z-index: 10;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.modal-close-btn:hover {
+  background: var(--prime-red);
+  color: #ffffff;
+  border-color: var(--prime-red);
+  transform: rotate(90deg);
+}
+
+.modal-header {
+  padding: 32px 40px 24px 40px;
+  border-bottom: 1px solid var(--sky-blue-border);
+  background-color: #faf8f5;
+}
+
+.modal-body {
+  padding: 32px 40px 40px 40px;
+  background-color: #ffffff;
+}
+
+/* ==========================================================================
+   PROJECT DETAIL MODAL
+   ========================================================================== */
+.modal-project-hero {
+  position: relative;
+  height: 400px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-bottom: 32px;
+  border: 1px solid var(--sky-blue-border);
+}
+
+.modal-project-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal-specs-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  background: #f0f7fd;
+  border: 1px solid var(--sky-blue-border);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  margin-bottom: 32px;
+}
+
+.spec-item h5 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+  letter-spacing: 0.05em;
+}
+
+.spec-item p {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--sky-blue);
+}
+
+/* Before & After Interactive Slider */
+.comparison-slider-container {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin: 28px 0;
+  user-select: none;
+  border: 1px solid var(--sky-blue-border);
+}
+
+.comparison-image-before,
+.comparison-image-after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.comparison-image-before img,
+.comparison-image-after img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.comparison-image-before {
+  width: 50%;
+  overflow: hidden;
+  z-index: 2;
+  border-right: 2px solid var(--sky-blue);
+  box-shadow: 2px 0 15px rgba(0,0,0,0.4);
+}
+
+.comparison-handle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--sky-blue);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  box-shadow: 0 4px 16px rgba(2, 132, 199, 0.4);
+  cursor: ew-resize;
+  pointer-events: none;
+}
+
+.comparison-label {
+  position: absolute;
+  bottom: 16px;
+  background: rgba(11, 19, 43, 0.9);
+  backdrop-filter: blur(8px);
+  color: #ffffff;
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: var(--radius-xs);
+  z-index: 5;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.comparison-label.label-before {
+  left: 16px;
+}
+
+.comparison-label.label-after {
+  right: 16px;
+}
+
+/* ==========================================================================
+   HQ TOUR MODAL
+   ========================================================================== */
+.hq-tour-tabs {
+  display: flex;
+  gap: 8px;
+  border-bottom: 1px solid var(--sky-blue-border);
+  margin-bottom: 24px;
+}
+
+.hq-tour-tab {
+  background: none;
+  border: none;
+  font-family: var(--font-heading);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  padding: 12px 20px;
+  border-bottom: 2px solid transparent;
+}
+
+.hq-tour-tab:hover {
+  color: var(--sky-blue);
+}
+
+.hq-tour-tab.active {
+  color: var(--sky-blue);
+  border-bottom-color: var(--sky-blue);
+}
+
+.hq-tour-pane {
+  display: none;
+}
+
+.hq-tour-pane.active {
+  display: block;
+  animation: fadeIn 0.3s ease;
+}
+
+.hq-tour-hero-img {
+  width: 100%;
+  height: 320px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-bottom: 20px;
+  border: 1px solid var(--sky-blue-border);
+}
+
+.hq-tour-hero-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ==========================================================================
+   INTERACTIVE RFQ & PROPOSAL ESTIMATOR MODAL
+   ========================================================================== */
+.rfq-steps-indicator {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.rfq-steps-indicator::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--sky-blue-tint);
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.rfq-step-circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 2px solid var(--sky-blue-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  position: relative;
+  z-index: 2;
+  transition: all var(--transition-fast);
+}
+
+.rfq-step-circle.active {
+  border-color: var(--sky-blue);
+  background: var(--sky-blue);
+  color: #ffffff;
+  box-shadow: var(--shadow-sky);
+}
+
+.rfq-step-circle.completed {
+  border-color: var(--sky-blue-light);
+  background: var(--sky-blue-light);
+  color: #ffffff;
+}
+
+.rfq-options-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.rfq-option-card {
+  border: 1px solid var(--sky-blue-border);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  background: #faf8f5;
+}
+
+.rfq-option-card:hover {
+  border-color: var(--sky-blue);
+  background: #f0f7fd;
+}
+
+.rfq-option-card.selected {
+  border-color: var(--sky-blue);
+  background: var(--sky-blue-tint);
+  box-shadow: 0 0 15px rgba(2, 132, 199, 0.15);
+}
+
+.rfq-option-card h4 {
+  font-size: 1rem;
+  margin-bottom: 6px;
+  color: var(--text-primary);
+}
+
+.rfq-option-card p {
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+}
+
+.rfq-nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--sky-blue-border);
+}
+
+.rfq-success-message {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.rfq-success-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: var(--sky-blue-tint);
+  color: var(--sky-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px auto;
+  border: 1px solid var(--sky-blue-border);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 900px) {
+  .modal-overlay {
+    padding: 10px;
+    align-items: flex-end; /* Sheet style on mobile or centered */
+  }
+
+  .modal-container {
+    max-height: 92vh;
+    border-radius: var(--radius-lg);
+    width: 100%;
+  }
+
+  .modal-close-btn {
+    top: 12px;
+    right: 12px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .modal-header {
+    padding: 20px 16px 16px 16px;
+  }
+
+  .modal-header h2 {
+    font-size: 1.35rem !important;
+  }
+
+  .modal-body {
+    padding: 16px;
+  }
+
+  .modal-project-hero {
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: var(--radius-md);
+  }
+
+  .modal-specs-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 14px;
+    margin-bottom: 20px;
+  }
+
+  .spec-item h5 {
+    font-size: 0.6875rem;
+  }
+
+  .spec-item p {
+    font-size: 0.875rem;
+  }
+
+  /* Before / After Slider Mobile Size */
+  .comparison-slider-container {
+    height: 220px;
+    margin: 18px 0;
+    border-radius: var(--radius-md);
+  }
+
+  .comparison-handle {
+    width: 38px;
+    height: 38px;
+  }
+
+  .comparison-label {
+    font-size: 0.6875rem;
+    padding: 3px 8px;
+    bottom: 10px;
+  }
+
+  .comparison-label.label-before { left: 10px; }
+  .comparison-label.label-after { right: 10px; }
+
+  /* HQ Tour Tabs Touch Scroll */
+  .hq-tour-tabs {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    gap: 4px;
+    padding-bottom: 6px;
+    margin-bottom: 16px;
+  }
+
+  .hq-tour-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .hq-tour-tab {
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding: 8px 14px;
+    font-size: 0.8125rem;
+  }
+
+  .hq-tour-hero-img {
+    height: 190px;
+    margin-bottom: 14px;
+  }
+
+  /* RFQ Modal Mobile Styles */
+  .rfq-steps-indicator {
+    margin-bottom: 24px;
+  }
+
+  .rfq-step-circle {
+    width: 32px;
+    height: 32px;
+    font-size: 0.8125rem;
+  }
+
+  .rfq-options-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .rfq-option-card {
+    padding: 14px;
+  }
+
+  .rfq-nav-buttons {
+    flex-direction: column-reverse;
+    gap: 10px;
+    margin-top: 24px;
+    padding-top: 16px;
+  }
+
+  .rfq-nav-buttons button {
+    width: 100%;
+    justify-content: center;
+    padding: 13px;
+  }
+}
