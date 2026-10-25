@@ -14,7 +14,7 @@ A modern, high-impact web portal for **Prime Construction Ltd** (established Jun
 - **Date of Incorporation:** June 20, 2016
 - **Headquarters:** Suite A20, Nkwegu Plaza, Area 1 Garki, FCT Abuja, Nigeria
 - **Corporate Email:** primeconst@gmail.com
-- **Official Telegram Desk:** [@primeconstruction_ng](https://t.me/primeconstruction_ng)
+- **Official Telegram Desk:** [@PrImeConst_bot](https://t.me/PrImeConst_bot)
 - **Workforce Strength:** 150+ In-House Professionals across 9 Specialized Divisions
 - **Heavy Fleet Arsenal:** 40+ Direct-Owned Units (CAT Crawler Excavators, Liebherr Telescopic Mobile Cranes, Actros 30T Tippers)
 
@@ -23,7 +23,7 @@ A modern, high-impact web portal for **Prime Construction Ltd** (established Jun
 ## ✨ Core Portal Features
 
 1. **High-Impact Entrance & Live Metric Trackers:**
-   - Visual architectural showcase featuring Tier-1 corporate horizons.
+   - Visual architectural showcase featuring Government Approved Tier-1 corporate horizons.
    - Dynamic animated KPI counters (*10+ Years of Mastery, 150+ In-House Staff, 9 Specialized Divisions, 98.6% On-Schedule Delivery*).
 
 2. **Multi-Stream Cinematic Slider ("Life at Prime"):**
@@ -45,8 +45,9 @@ A modern, high-impact web portal for **Prime Construction Ltd** (established Jun
    - Interactive virtual tour experience modal with categorized room walk-throughs.
 
 6. **Live AI Concierge & Official Telegram Integration:**
-   - Built-in floating chat concierge ("Prime Engineering AI") answering queries regarding project timelines, building costs, machinery availability, and pre-construction fees.
-   - One-click routing to the official **Telegram Direct Desk** (`@primeconstruction_ng`) and WhatsApp channels.
+   - Powered by live **n8n Cloud Chatbot Webhook** with real-time conversation state tracking and markdown parsing.
+   - Direct integration with verified Telegram bot **[@PrImeConst_bot](https://t.me/PrImeConst_bot)** (HTTP API enabled).
+   - One-click routing to Telegram Direct Desk and WhatsApp channels.
 
 7. **Fully Mobile-First Responsive Design:**
    - Fluid typography, touch-friendly tap targets (minimum 44–48px), swipeable horizontal pill ribbons, and adaptive full-screen mobile chat modes.
